@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+    <classTemplate tpl="tpl/class.xsl" targetDir="latest/output"/>
+    <treeTemplate tpl="tpl/tree.xsl" targetFile="latest/output/tree.js"/>
+    <source targetDir="latest/source" wrapper="source-wrap.html"/>
+    <resources>
+        <copy src="index.html" dst="latest/index.html"/>
+        <copy src="welcome.html" dst="latest/welcome.html"/>
+        <copy src="../resources" dst="resources"/>
+    </resources>
+</template>
